@@ -4,7 +4,7 @@ Hannes Tautschnig
 
 Brought to you by the aforementioned person with kind help of:
 1. https://www.markdowntutorial.com
-2. https://daringfireball.net/projects/markdown
+2. <https://daringfireball.net/projects/markdown>
 
 ![Hannes Tautschnig](me/avatar.jpg)
 
