@@ -27,6 +27,11 @@ __theoretisch wieder gleicher Text__
 Sprich:
 * Ein _ bzw. * entspricht \em{}
 * Zwei __ oder ** entsprechen \bf{}
-* Und beides kombiniert schaut überhaupt krass aus: **__SIIIIICK__**
+* Und beides kombiniert schaut überhaupt krass aus: __SIIIIICK__
+
+Lol: Upon comparison of the Eclipse-integrated markdown-renderer and the actual on [GitHub][gh] hosted page, I even noticed a possible flaw/bug inside the Eclipse-part. :D 
+Aus **__ und umgekehrt natürlich auch wieder wird in Eclipse nur bold font, auf [GitHub] im Gegensatz stell's des Ganze eigentlich richtig dar: mit den _ als bold und nur die * über Markdown verwandelt.
 
 [keybase.io](https://htautsch.keybase.pub/ "Hannes Tautschnig's very own page on keybase.io")
+
+[gh]: https://github.io "GitHub.io"
