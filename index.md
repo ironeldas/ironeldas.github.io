@@ -26,23 +26,34 @@ Just take care not to write directly above the line, 'cause then it'll be intepr
 
 ---
 
-I just read header one as well as [link to header six TODO] should generally be used _rather_ rarely (Source: [Tutorial von **GitHub**, Lesson 2](https://www.markdowntutorial.com/lesson/2/)). 
+I just read header one as well as [Überschrift No. 6](#6-tär) should generally be used _rather_ rarely (Source: [Tutorial von **GitHub**, Lesson 2](https://www.markdowntutorial.com/lesson/2/)). 
 Ist aber auch relativ verständlich wenn ich mir so die Darstellung anschaue.
 
 Sekündäre Überschrift
 ---------------------
+Auf `echo hallo` sagt die bash `hallo`
 
 ## Eigentlich auch Sekundär
 Text
-### Tertiär
+```
+# code block
+print '3 backticks or'
+print 'indent 4 spaces'
+``` 
+### Links
+[a relative link to ma README.md](README.md)  
+working nicely!
 #### Quartiär
 ##### Quintär
+
 ###### 6-tär
+
 _Text_  
 *gleicher Text*  
 **ähnlicher Text**  
 __theoretisch wieder gleicher Text__
 
+<a name="sprich"></a>
 Sprich:
 * Ein _ bzw. * entspricht \em{}
 * Zwei __ oder ** entsprechen \bf{}
@@ -57,7 +68,14 @@ Aus **__ und umgekehrt natürlich auch wieder wird in Eclipse nur bold font, auf
 
 Und was auch gerade erst aufgefallen ist: In Eclipse werden die Links ziemlich weit oben ohne Probleme als solche erkannt, auf [GitHub][gh] nicht, also zumindest nicht ohne spitze Klammern!
 
+[//]: # (This is a comment inside a bracket)
+[//]: # (Shit, meine Coins fallen gerade ins Bodenlose)
+[//]: # (Wichtig: Comment _muss_ in runden Klammern sein!)
 
+<!---
+This type of comment should be actually rendered inside the
+generated HTML output, whereas the above ones should only be visible inside the .md file.
+-->
 
 [keybase.io](https://htautsch.keybase.pub/ "Hannes Tautschnig's very own page on keybase.io")
 
