@@ -1,6 +1,7 @@
 Hannes Tautschnig
 =================
 > _"Sie werden sich noch wundern, was alles gehen wird."_
+
 # Primär
 
 ~~~~~~~
@@ -13,9 +14,9 @@ Brought to you by the aforementioned person with kind help of:
 Wirkt ganz vernünftig das Tutorial
 
 2. <https://daringfireball.net/projects/markdown>
-oder doch in der gleichen Zeile
+oder doch in der gleichen Zeile, a wenn ich des Tutorial halt einfach wirklich nicht benutzt hab..
 
-Darfs a kleine Linie sein?
+Darfs a kleine Linie sein?  
 Just take care not to write directly above the line, 'cause then it'll be intepreted as a 2nd level heading.
 
 ---
