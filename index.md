@@ -1,6 +1,7 @@
 Hannes Tautschnig
 =================
 > _"Sie werden sich noch wundern, was alles gehen wird."_
+# Primär
 
 ~~~~~~~
 loop
@@ -14,20 +15,27 @@ Wirkt ganz vernünftig das Tutorial
 2. <https://daringfireball.net/projects/markdown>
 oder doch in der gleichen Zeile
 
+Darfs a kleine Linie sein?
+Just take care not to write directly above the line, 'cause then it'll be intepreted as a 2nd level heading.
+
+---
+
 ![Hannes Tautschnig](me/avatar.jpg)
+
+---
+
+I just read header one as well as [link to header six TODO] should generally be used _rather_ rarely (Source: [Tutorial von **GitHub**, Lesson 2](https://www.markdowntutorial.com/lesson/2/)). 
+Ist aber auch relativ verständlich wenn ich mir so die Darstellung anschaue.
 
 Sekündäre Überschrift
 ---------------------
 
-# Tertiär
-I just read header one as well as [link to header six TODO] should generally be used _rather_ rarely (Source: [Tutorial von **GitHub**, Lesson 2](https://www.markdowntutorial.com/lesson/2/)). 
-Ist aber auch relativ verständlich wenn ich mir so die Darstellung anschaue.
-## Quartiär
+## Eigentlich auch Sekundär
 Text
-### Quintär
-#### Hextär-4
-##### 5
-###### 6
+### Tertiär
+#### Quartiär
+##### Quintär
+###### 6-tär
 _Text_  
 *gleicher Text*  
 **ähnlicher Text**  
@@ -36,16 +44,16 @@ __theoretisch wieder gleicher Text__
 Sprich:
 * Ein _ bzw. * entspricht \em{}
 * Zwei __ oder ** entsprechen \bf{}
-  * Und beides kombiniert schaut überhaupt krass aus: __SIIIIICK__
+  * Und beides kombiniert schaut überhaupt krass aus: __*SIIIIICK*__ geht aber auch mit 3 _ - ___YO!___
 
 Merke: Double Space  
 am Ende der Zeile  
-macht einen leichten Umbruch aus!
+macht einen Umbruch aus!
 
 Lol: Upon comparison of the Eclipse-integrated markdown-renderer and the actual on [GitHub][gh] hosted page, I even noticed a possible flaw/bug inside the Eclipse-part. :D 
 Aus **__ und umgekehrt natürlich auch wieder wird in Eclipse nur bold font, auf [GitHub][gh] im Gegensatz stell's des Ganze eigentlich richtig dar: mit den _ als bold und nur die * über Markdown verwandelt.
 
-Und was auch gerade erst aufgefallen ist: In Eclipse werden die Links ziemlich weit oben ohne Probleme als solche erkannt, auf [GitHub][gh] absolut nit. ^^
+Und was auch gerade erst aufgefallen ist: In Eclipse werden die Links ziemlich weit oben ohne Probleme als solche erkannt, auf [GitHub][gh] nicht, also zumindest nicht ohne spitze Klammern!
 
 
 
